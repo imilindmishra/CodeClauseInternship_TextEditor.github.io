@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Text Editor </title>
+	<link rel="stylesheet" href="./styles.css">
+	<script src="./app.js"></script>
+
+
+</head>
+
+<body onload = "EnableEditMode();">
+        <h1 class="header" style="text-align : center"> Online Text Editor </h> </br>
+	<div class= "navigation">
+		<button onclick= "execCmd('bold')" class="button1 btn">B</button>
+		<button onclick= "execCmd('underline')" class="button2 btn">U</button>
+		<button onclick= "execCmd('italic')" class="button3 btn">I</button>
+		<button onclick ="colorInput" class= "button2"><div style="padding:0px;">A</div> <input type="color" class="button4 btn" name="" id="colorInput" onchange="execCmd('foreColor',this.value);window.getSelection().empty()"></button>
+		<button onclick= "execCmd('justifyLeft')" class="button btn"><img src="Resources/left.png" width="18"></button>
+		<button onclick= "execCmd('justifyCenter')" class="button btn"><img src="Resources/center.png" width="18"></button>
+		<button onclick= "execCmd('justifyRight')" class="button btn"><img src="Resources/right.png" width="18"></button>
+		<button onclick= "execCmd('justifyFull')" class="button btn"><img src="Resources/justify.png" width="18"></button>
+		<button onclick= "execCmd('undo')" class="button btn"><img src="Resources/undo.png" width="18"></button>
+		<button onclick= "execCmd('redo')" class="button btn"><img src="Resources/action-redo.png" width="18"></button>
+
+	</div>
+	</br></br>
+
+	<div style ="text-align : center">
+	<iframe name="TextField" width = "75%" height = "700" class="iframe"></iframe>
+	</div>
+
+
+
+</body>
+</html>

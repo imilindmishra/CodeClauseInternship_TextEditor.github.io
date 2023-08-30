@@ -1,0 +1,76 @@
+body {
+    background-color:rgb(248, 249, 250);
+}
+
+div.navigation {
+    background-color: aqua;
+}
+
+.navigation {
+list-style-type: none;
+margin: 0px;
+padding: 20px;
+overflow: hidden;
+background-color: aqua;
+text-align:space-evenly;
+}
+
+.btn:hover{
+background-color: gray;
+}
+
+.button {
+margin : 0px 5px;
+cursor: pointer;
+background: none;
+color: white;
+border: none;
+}
+
+
+.button1{
+font-weight: bolder;
+margin : 0px 5px;
+cursor: pointer;
+font-size: 18px;
+background: none;
+color: white;
+border: none;
+}
+
+.button2{
+text-decoration: underline;
+margin : 0px 5px;
+cursor: pointer;
+font-size: 18px;
+background: none;
+color: white;
+border: none;
+}
+
+.button3{
+font-style: italic;
+margin : 0px 5px;
+cursor: pointer;
+font-size: 18px;
+background: none;
+color: white;
+border: none;
+}
+
+.button4{
+background: none; 
+border: none; 
+height: 1.5em;
+cursor: pointer;	
+width: 3em; 
+padding: 0; 
+margin-top: 0;
+}
+
+.iframe {
+border-radius: 15px;
+border: 3px solid rgb(144, 194, 245);
+padding: 20px; 
+background-color: rgb(255, 255, 255);
+}
